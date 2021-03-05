@@ -31,7 +31,7 @@ To revert back to using the UI to edit your Lovelace interface, remove the `love
 
 ### Adding more dashboards with YAML
 
-It is also possible to use YAML to define multiple dashboards. Each dashboard will be loaded from its own YAML file.
+It is also possible to use YAML to define multiple dashboards. Each dashboard will be loaded from its own YAML file. Each dashboard name needs to have a hyphen "-" in it, to avoid conflicts with base URLs.
 
 ```yaml
 lovelace:
